@@ -41,7 +41,7 @@
 #endif
 
 struct skynet_context {
-	void * instance;
+	void * instance;		// xx_create返回的对象指针
 	struct skynet_module * mod;
 	void * cb_ud;
 	skynet_cb cb;
